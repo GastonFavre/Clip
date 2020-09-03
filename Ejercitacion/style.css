@@ -1,0 +1,42 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+*{margin: 0; padding: 0;}
+.card-body{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.card-img-top{
+  height: 300px;
+}
+
+.card-img-top img{
+  width: 100%;
+  height: auto;
+}
+@supports(object-fit: cover){
+    .card-img-top img{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+}
+
+.a, h4, #link-contact{
+  text-decoration: none;
+  text-decoration-line: none;
+}
