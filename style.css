@@ -24,10 +24,16 @@
   height: 300px;
 }
 
+.card-img{
+  height: 100px;
+  width: 100%;
+}
+
 .card-img-top img{
   width: 100%;
   height: auto;
 }
+
 @supports(object-fit: cover){
     .card-img-top img{
       height: 100%;
@@ -39,4 +45,13 @@
 .a, h4, #link-contact{
   text-decoration: none;
   text-decoration-line: none;
+}
+
+body{
+  padding-left: 0;
+  scroll-padding-right: 0;
+}
+
+.jumbotron{
+  background-image: url("./resources/img/patitas.jpg");
 }

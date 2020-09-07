@@ -1,5 +1,5 @@
-var intentosMaximos = 4;
-var intento = 1;
+var intentosMaximos = 3;
+var intento = 0;
 var respuesta_correcta = "salchicha";
 var respuesta = document.getElementById("input_respuesta");
 var restantes;
@@ -53,12 +53,3 @@ function doSomething()
         return false;
     }
 }
-
-
-// var el = document.getElementById("clickAd");
-// if(el.addEventListener)
-//     el.addEventListener("click", doSomething, false);
-// else if (el.attachEvent)
-//     el.attachEvent('onclick', doSomething);
-
-// document.getElementById("clickAd").onclick = doSomething();
